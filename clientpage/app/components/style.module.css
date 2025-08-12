@@ -6,3 +6,18 @@
     margin-left: 12rem;
     }
 }
+.button{
+    will-change: width;
+    width : 80px;
+ transition: all 1s ease-in-out 0s;
+}
+.button:hover{
+    width: 100px;
+    background-color: rgb(54, 52, 52);
+    color: white;
+}
+@media (prefers-reduced-motion : reduce) {
+    .box{
+        will-change: auto;
+    }
+}

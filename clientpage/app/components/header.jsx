@@ -7,6 +7,7 @@ import Searchbar from './Searchbar'
 import {motion} from 'framer-motion'
 import Theme from './Theme'
 import SideBar from './sideBar'
+import { Button } from '@/components/ui/button'
 export default function Header() {
   return (
     <>
@@ -17,7 +18,7 @@ export default function Header() {
           
         <span className='flex'>
         <div>
-           <Image src={Logo} alt='Jevinik' className='w-8 h-8 mt-1 rounded-lg fixed md:static dark:bg-black'/>
+          <Link href="#"> <Image src={Logo} alt='Jevinik' className='w-8 h-8 mt-1 rounded-lg fixed md:static dark:bg-black'/></Link>
         </div>
           <ul className=' hidden md:flex gap-4 px-8 py-2 border-r border-r-gray-400'> 
            <Link href={'/'}>Home</Link>      
@@ -31,7 +32,9 @@ export default function Header() {
          </div> {/* Seaarch Div */}
           <div>
            <span className='md:block'><Theme/></span>
-          <button> <Link href='#' className=' hidden md:block absolute border px-4 py-1 rounded-md border-gray-400 bg-orange-300 text-zinc-900 right-10 top-10 dark:bg-black dark:text-white'>Sign In</Link> </button>
+           <Link href='/'>
+           <Button className={`${styles.button} absolute right-4 top-8 hidden md:block `} variant='secondary'>Login</Button>
+           </Link>
           <div className=' sm:block md:hidden'><SideBar/></div>
           </div>
          </div>

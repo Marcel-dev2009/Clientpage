@@ -55,7 +55,7 @@ export default function Searchbar() {
              initial={{width : 0}}
              animate={{width : '500px'}}
              transition={{duration : 0.4 , ease: 'easeOut'}}
-             className='pl-10 pr-10 py-2 rounded-md border-2 outline-none transition-all duration-200 border-gray-500 text-black
+             className='pl-10 pr-10 py-2 rounded-md border-2 outline-none transition-all duration-200 border-gray-500 text-black dark:text-white
              w-full max-w-[280px] sm:max-w-[200px] md:max-w-[360px] placeholder:text-xs dark:placeholder:text-white'
             >
 
@@ -69,7 +69,7 @@ export default function Searchbar() {
            className='absolute right-2 top-6 transform -translate-y-1/2
            p-1 rounded-full transition-all duration-200 hover:scale-110 active:scale-95 bg-gray-300'
            >
-            <X className='w-4 h-4'/>
+            <X className='w-4 h-4 dark:text-black'/>
            </button>
           </motion.div>
          )}

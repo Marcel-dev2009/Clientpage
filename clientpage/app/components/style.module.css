@@ -16,8 +16,61 @@
     background-color: rgb(54, 52, 52);
     color: white;
 }
+.menuButton{
+    will-change: width;
+    width : 100px;
+ transition: all 1s ease-in-out 0s;
+}
+.menuButton:hover{
+    width: 110px;
+    background-color: rgb(54, 52, 52);
+    color: white;
+}
+.menuButtonrev{
+    will-change: width;
+    width : 100px;
+  transition: all 1s ease-in-out 0s;
+  transform: translateX(-40rem);
+}
+.menuButtonrev:hover{
+    width: 110px;
+    background-color: rgb(54, 52, 52);
+    color: white;
+}
 @media (prefers-reduced-motion : reduce) {
     .box{
         will-change: auto;
     }
 }
+.container{
+    width: calc(98% - 5rem);
+    margin: 0 auto;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background: transparent;
+    backdrop-filter: blur(0.5);
+    background-color: rgba(53, 53, 53, 0.1); 
+    height: auto;
+}
+.desc{
+    transform: translateX(35rem);
+}
+@media screen and (max-width : 768px) {
+    .desc{
+        transform: translateX(0);
+        padding: 1.2rem;
+    }
+    .menuButton{
+        transform: translateX(20rem);
+    }
+    .text{
+        transform: translateX(70rem); 
+    }  
+    .container{
+        width: 100vw;
+    } 
+}
+/* .descrev{
+    transform: translateX(-40rem);
+} */

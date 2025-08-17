@@ -1,9 +1,5 @@
 'use client'
 import Image from 'next/image'
-import {gsap} from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import SplitType from 'split-type'
-import Lenis from '@studio-freight/lenis'
 import fish from '../../public/fish.png'
 import cow from '../../public/cow.png'
 import goat from '../../public/goat.png'
@@ -25,48 +21,9 @@ import Type from './Type'
 import { useState , useEffect} from 'react'
 const Typer = dynamic(() => import('./TypingEffect.jsx') , {ssr: false})
 export default function Body() {
-  let lenis;
- const texts = new SplitType('.target')
-  const chars = texts.chars;
-  useEffect(() => {
-   const initSmooth = () => {
-    lenis = new Lenis({
-     lerp:0.2,
-     smooth : true,
-    }) 
-    lenis.on('scroll' , () => ScrollTrigger.update());
-    const scrollFn = (time) =>  {
-      lenis.raf(time);
-      requestAnimationFrame(scrollFn)    
-    }
-   }
-   const scroll = () => {
-    chars.forEach(char => gsap.set(char.parentNode , {perspective : 1000}));
-    gsap.fromTo(chars, {
-      willChange: 'opacity , transform',
-      opacity:0.2,
-      z:-800,
-
-    },
-  {
-    ease : 'back.out(1.2)',
-    opacity:1,
-    stagger:0.04,
-    scrollTrigger : {
-      start : 'top bottom',
-      end:'buttom top',
-      scrub:true
-    }
-  })
-   }
-   const init = () => {
-   initSmooth();
-   scroll(); 
-   }
-   init();
-  }, [] );
+  const win = typeof window !== "undefined" ? window : undefined;
   const useWidth = (threshold = 1080) => {
-    const [Narrow , setIsNarrow] = useState(typeof window !== undefined ? window.innerWidth <= threshold : false)
+    const [Narrow , setIsNarrow] = useState(win ? win.innerWidth <= threshold : false)
     useEffect(() => {
      function onResize(){
        setIsNarrow(window.innerWidth<= threshold)

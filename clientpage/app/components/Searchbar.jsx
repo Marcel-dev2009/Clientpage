@@ -55,8 +55,8 @@ export default function Searchbar() {
              initial={{width : 0}}
              animate={{width : '500px'}}
              transition={{duration : 0.4 , ease: 'easeOut'}}
-             className='pl-10 pr-10 py-2 rounded-md border-2 outline-none transition-all duration-200 border-gray-500 text-black dark:text-white
-             w-full max-w-[280px] sm:max-w-[200px] md:max-w-[360px] placeholder:text-xs dark:placeholder:text-white'
+             className='pl-10 pr-10 py-2 rounded-md border-2 outline-none transition-all duration-200 border-gray-500 text-black dark:text-white dark:bg-black bg-white
+             w-full max-w-[270px] md:max-w-[360px] placeholder:text-xs dark:placeholder:text-white'
             >
 
             </motion.input>

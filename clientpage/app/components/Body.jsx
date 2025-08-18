@@ -41,7 +41,7 @@ export default function Body() {
 
       <div className='p-10'>
          <div>
-         <img src="/back.svg" alt="Back" className='absolute top-0 left-0 md:top-0 md:w-[32rem]'/>
+         <img src="/back.svg" alt="Back" className='absolute top-0 left-0 md:top-0 md:w-[32rem]' loading='lazy'/>
          <motion.h1  initial={{opacity : 0 , top:0}} animate={{opacity : 1 , top:'14rem'}} transition={{duration : 5 , ease:'easeIn' , type:'spring', stiffness:100, damping:10 , mass:1}}
          className=' target absolute left-[6.5rem] md:left-[6.5rem] md:top-[13rem] top-[12rem] text-2xl md:text-4xl text-shadow-lg'>Simply Delicious</motion.h1>
          </div>
@@ -81,7 +81,7 @@ export default function Body() {
                     </div> <br /> {/* SemoLina end */}
 
                     <div className='flex flex-row-reverse gap-[2rem]'>
-                    <Image src={amala} alt='amala' loading='lazy' className='w-[300px] h-[150px] md:w-[200px] transform -translate-x-[6.4rem]'/>
+                    <Image src={amala} alt='amala' loading='lazy' className='w-[300px] h-[150px] md:w-[200px] transform -translate-x-[6.4rem]' />
                        <div className={`${styles.desc}`}>
                        <h2 className={`md:mt-7 md:text-[1.5rem] md:mb-2 border-b rounded-full w-fit px-6 transform translate-y-[6rem] translate-x-[3rem] md:translate-x-[-50rem] md:-translate-y-[0.5rem]
                         `}>Amala</h2>
@@ -109,7 +109,7 @@ export default function Body() {
                  <h2 className='md:text-2xl grid place-items-center mt-2 border-b border-b-gray-black p-4'>Soups</h2>
                  <div> 
                     <div className='flex gap-[2rem]'>
-                    <Image src={owerri} alt='owerri soup' loading='lazy' className=' w-[150px] h-[150px] md:w-[200px] transform translate-x-[13rem]
+                    <Image src={owerri} alt='owerri soup' loading='lazy' className=' w-[150px] h-[150px] md:w-[200px] transform translate-x-[12rem]
                      md:translate-x-[8rem] mt-[7rem] md:mt-14'/>
                        <div className={`${styles.desc}`}>
                        <h2 className='mt-7 md:text-[1.5rem] mb-2 border-b rounded-full w-fit px-6 whitespace-nowrap'>Ofe Owerri Soup</h2>
@@ -126,7 +126,7 @@ export default function Body() {
                     </div> {/* Owerri end */} <br />
 
                     <div className='flex flex-row-reverse gap-[2rem]'>
-                    <Image src={oha} alt='oha soup' loading='lazy' className='w-[150px] mt-14 h-[150px] md:w-[200px] transform -translate-x-[14rem]
+                    <Image src={oha} alt='oha soup' loading='lazy' className='w-[150px] mt-14 h-[150px] md:w-[200px] transform -translate-x-[12rem]
                     md:-translate-x-[4rem]'/>
                        <div className={`${styles.desc}`}>
                        <h2 className={`mt-7 transform md:text-[1.5rem] mb-2 border-b rounded-full w-fit px-6 ${Narrow ? 'translate-x-[14rem] -translate-y-[2rem]' : '-translate-x-[50rem]'}`}>
@@ -173,9 +173,9 @@ export default function Body() {
                     </div> {/*Beef end */} 
 
                     <div className='flex flex-row-reverse gap-[2rem]'>
-                    <Image src={fish} alt='amala' loading='lazy' className={` w-[150px] h-[150px] mt-14 md:w-[200px] transform ${Narrow ? '-translate-x-[15rem]' : ''}`}/>
+                    <Image src={fish} alt='amala' loading='lazy' className={` w-[150px] h-[150px] mt-14 md:w-[200px] transform ${Narrow ? '-translate-x-[13rem]' : ''}`}/>
                        <div className={`${styles.desc}`}>
-                       <h2 className={`mt-7 md:text-[1.5rem] mb-2 border-b rounded-full w-fit transform px-6 ${Narrow ? 'translate-x-[10rem]' : '-translate-x-[50rem]'} `}>
+                       <h2 className={`mt-7 md:text-[1.5rem] mb-2 border-b rounded-full w-fit transform px-6 ${Narrow ? 'translate-x-[11rem]' : '-translate-x-[50rem]'} `}>
                        Fresh Fish</h2>
                        <p className={`transform  mt-10 ${Narrow ? 'translate-x-[10rem]' : '-translate-x-[55rem]'}`}>
                        {Narrow ? (<h2>Fresh, succulent fish  <br /> for the finsest flavour</h2>) : (<h2>Fresh, succulent fish, sourced daily for the finest flavor and delicate texture.</h2>)}
@@ -214,7 +214,7 @@ export default function Body() {
                     </div> {/*Jellof*/}
 
                     <div className='flex flex-row-reverse gap-[2rem]'>
-                    <Image src={white} alt='amala' loading='lazy' className={` w-[150px] h-[150px] mt-14 md:w-[200px] transform ${Narrow ? "-translate-x-[15rem]" : "-translate-x-[4rem]"} `}/> {/*  Revoke ml later */}
+                    <Image src={white} alt='amala' loading='lazy' className={` w-[150px] h-[150px] mt-14 md:w-[200px] transform ${Narrow ? "-translate-x-[12rem]" : "-translate-x-[4rem]"} `}/> {/*  Revoke ml later */}
                        <div className={`${styles.desc}`}>
                        <h2 className={`mt-4 md:text-[1.5rem] mb-2 border-b rounded-full w-fit transform px-6 ${Narrow ? 'translate-x-[15rem]' :''}`}>
                        White Rice</h2>
@@ -241,7 +241,7 @@ export default function Body() {
                  <h2 className='md:text-2xl grid place-items-center mt-2 border-b border-b-gray-black p-4'>Pepper Soup</h2>
                  <div> 
                     <div className='flex gap-[2rem]'>
-                    <Image src={goat} alt='semolina' loading='lazy' className=' w-[150px] h-[150px] mt-20 md:w-[200px] transform translate-x-[14rem] md:mt-6'/>
+                    <Image src={goat} alt='semolina' loading='lazy' className=' w-[150px] h-[150px] mt-20 md:w-[200px] transform translate-x-[12.5rem] md:mt-6'/>
                        <div className={`${styles.desc}`}>
                        <h2 className={`mt-7 transform md:text-[1.5rem] mb-2 border-b rounded-full w-fit px-6 whitespace-nowrap ${Narrow ? '-translate-x-8' : ''}`}>Goat meat pepper soup</h2>
                        <p className={`transform  mt-10 ${Narrow ? '-translate-x-[11rem]' : '-translate-x-[20rem]'}`}>
@@ -268,7 +268,7 @@ export default function Body() {
                        </div>
                     </div> {/* cow leg pepper soup */}
                  
-                    <div className='grid place-content-center mb-7 py-4 animate-bounce'>
+                    <div className='grid place-content-center mb-7 py-4 '>
                       <Button asChild>
                         <Link href='/Menu'>Click to View our Full Menu</Link>
                       </Button>

@@ -127,12 +127,12 @@ export default function Categories() {
                     <div className='flex flex-row-reverse gap-[2rem]'>
                       <Image src={garri} alt='garri' loading='lazy' className='w-[300px] h-[150px] md:w-[200px] transform -translate-x-[6.4rem]'/>
                        <div className={`${styles.desc}`}>
-                       <h2 className={`md:mt-7 md:text-[1.5rem] md:mb-2 border-b rounded-full w-fit px-6 transform translate-y-[6rem] translate-x-[3rem] md:translate-x-[-50rem] md:-translate-y-[0.5rem]
+                       <h2 className={`md:mt-7 md:text-[1.5rem] md:mb-2 border-b rounded-full w-fit px-6 transform translate-y-[7rem] translate-x-[10rem] md:translate-x-[-50rem] md:-translate-y-[0.5rem]
                         `}>Garri</h2>
-                       <p className={`transform translate-x-[8rem] translate-y-[5rem] md:-translate-x-[52rem] md:translate-y-0 mt-10 ${Narrow ? 'whitespace-nowrap' : 'whitespace-normal'} `}>
+                       <p className={`transform translate-x-[10rem] translate-y-[7rem] md:-translate-x-[52rem] md:translate-y-0 mt-10 ${Narrow ? 'whitespace-nowrap' : 'whitespace-normal'} `}>
                        {Narrow ? '  Authentic west african cusine.' : 'Crisp and satisfying, the perfect side for a taste of authentic West African cuisin.'} 
                        </p> <br />
-                       <Button asChild className={`transform w-[6rem] translate-x-[19rem] -translate-y-[2.6rem] md:-translate-x-0 mt-6`}>
+                       <Button asChild className={`transform w-[6rem] translate-x-[19rem] -translate-y-[1rem] md:-translate-x-0 mt-6`}>
                         <Link href='/Menu/garri'  target="_blank" className='px-6'>Learn More</Link>
                        </Button>
                        </div> <br />
@@ -176,7 +176,7 @@ export default function Categories() {
                     </div> {/* Owerri end */} <br />
 
                     <div className='flex flex-row-reverse gap-[2rem]'>
-                    <Image src={oha} alt='oha soup' loading='lazy' className='w-[150px] mt-14 h-[150px] md:w-[200px] transform -translate-x-[14rem]
+                    <Image src={oha} alt='oha soup' loading='lazy' className='w-[150px] mt-14 h-[150px] md:w-[200px] transform -translate-x-[12rem]
                     md:-translate-x-[4rem]'/>
                        <div className={`${styles.desc}`}>
                        <h2 className={`mt-7 transform md:text-[1.5rem] mb-2 border-b rounded-full w-fit px-6 ${Narrow ? 'translate-x-[14rem] -translate-y-[2rem]' : '-translate-x-[50rem]'}`}>
@@ -210,7 +210,7 @@ export default function Categories() {
                     </div> {/* afang end */} <br />
 
                     <div className='flex flex-row-reverse gap-[2rem]'>
-                    <Image src={ogbono} alt='oha soup' loading='lazy' className='w-[150px] mt-14 h-[150px] md:w-[200px] transform -translate-x-[14rem]
+                    <Image src={ogbono} alt='oha soup' loading='lazy' className='w-[150px] mt-14 h-[150px] md:w-[200px] transform -translate-x-[12rem]
                     md:-translate-x-[4rem]'/>
                        <div className={`${styles.desc}`}>
                        <h2 className={`mt-7 transform md:text-[1.5rem] mb-2 border-b rounded-full w-fit px-6 ${Narrow ? 'translate-x-[14rem] -translate-y-[2rem]' : '-translate-x-[50rem]'}`}>
@@ -228,7 +228,7 @@ export default function Categories() {
                     </div> {/* Ogbono end */}
 
                     <div className='flex gap-[2rem]'>
-                    <Image src={bitter} alt='owerri soup' loading='lazy' className=' w-[150px] h-[150px] md:w-[200px] transform translate-x-[13rem]
+                    <Image src={bitter} alt='owerri soup' loading='lazy' className=' w-[150px] h-[150px] md:w-[200px] transform translate-x-[12rem]
                      md:translate-x-[8rem] mt-[7rem] md:mt-14'/>
                        <div className={`${styles.desc}`}>
                        <h2 className='mt-7 md:text-[1.5rem] mb-2 border-b rounded-full w-fit px-6 whitespace-nowrap'> Bitterleaf soup</h2>
@@ -246,7 +246,7 @@ export default function Categories() {
                     </div> {/* Bitter end */} <br />
 
                     <div className='flex flex-row-reverse gap-[2rem]'>
-                    <Image src={abak} alt='oha soup' loading='lazy' className='w-[150px] mt-14 h-[150px] md:w-[200px] transform -translate-x-[14rem]
+                    <Image src={abak} alt='oha soup' loading='lazy' className='w-[150px] mt-14 h-[150px] md:w-[200px] transform -translate-x-[13rem]
                     md:-translate-x-[4rem]'/>
                        <div className={`${styles.desc}`}>
                        <h2 className={`mt-7 transform md:text-[1.5rem] mb-2 border-b rounded-full w-fit px-6 ${Narrow ? 'translate-x-[14rem] -translate-y-[2rem]' : '-translate-x-[50rem]'}`}>
@@ -315,7 +315,7 @@ export default function Categories() {
                     </div> {/* Egusi end */} <br />
 
                     <div className='flex flex-row-reverse gap-[2rem]'>
-                    <Image src={uziza} alt='oha soup' loading='lazy' className='w-[150px] mt-14 h-[150px] md:w-[200px] transform -translate-x-[14rem]
+                    <Image src={uziza} alt='oha soup' loading='lazy' className='w-[150px] mt-14 h-[150px] md:w-[200px] transform -translate-x-[12rem]
                     md:-translate-x-[4rem]'/>
                        <div className={`${styles.desc}`}>
                        <h2 className={`mt-7 transform md:text-[1.5rem] mb-2 border-b rounded-full w-fit px-6 ${Narrow ? 'translate-x-[14rem] -translate-y-[2rem]' : '-translate-x-[50rem]'}`}>
@@ -351,7 +351,7 @@ export default function Categories() {
                     </div> {/* Delight end */} <br />
 
                     <div className='flex flex-row-reverse gap-[2rem]'>
-                    <Image src={oha} alt='oha soup' loading='lazy' className='w-[150px] mt-14 h-[150px] md:w-[200px] transform -translate-x-[14rem]
+                    <Image src={oha} alt='oha soup' loading='lazy' className='w-[150px] mt-14 h-[150px] md:w-[200px] transform -translate-x-[13rem]
                     md:-translate-x-[4rem]'/>
                        <div className={`${styles.desc}`}>
                        <h2 className={`mt-7 transform md:text-[1.5rem] mb-2 border-b rounded-full w-fit px-6 ${Narrow ? 'translate-x-[14rem] -translate-y-[2rem]' : '-translate-x-[50rem]'}`}>
@@ -369,7 +369,7 @@ export default function Categories() {
                     </div> {/* Oha end */}
 
                     <div className='flex gap-[2rem]'>
-                    <Image src={vegies} alt='owerri soup' loading='lazy' className=' w-[150px] h-[150px] md:w-[200px] transform translate-x-[13rem]
+                    <Image src={vegies} alt='owerri soup' loading='lazy' className=' w-[150px] h-[150px] md:w-[200px] transform translate-x-[12rem]
                      md:translate-x-[8rem] mt-[7rem] md:mt-14'/>
                        <div className={`${styles.desc}`}>
                        <h2 className='mt-7 md:text-[1.5rem] mb-2 border-b rounded-full w-fit px-6 whitespace-nowrap'> Vegetable Soup</h2>
@@ -386,10 +386,10 @@ export default function Categories() {
                     </div> {/* Vegetable end */} <br />
 
                     <div className='flex flex-row-reverse gap-[2rem]'>
-                    <Image src={native} alt='oha soup' loading='lazy' className='w-[150px] mt-14 h-[150px] md:w-[200px] transform -translate-x-[14rem]
+                    <Image src={native} alt='native soup' loading='lazy' className='w-[150px] mt-14 h-[150px] md:w-[200px] transform -translate-x-[12rem]
                     md:-translate-x-[4rem]'/>
                        <div className={`${styles.desc}`}>
-                       <h2 className={`mt-7 transform md:text-[1.5rem] mb-2 border-b rounded-full w-fit px-6 ${Narrow ? 'translate-x-[14rem] -translate-y-[2rem]' : '-translate-x-[50rem]'}`}>
+                       <h2 className={`mt-7 transform md:text-[1.5rem] mb-2 border-b rounded-full w-fit px-6 whitespace-nowrap ${Narrow ? 'translate-x-[12rem] -translate-y-[2rem]' : '-translate-x-[50rem]'}`}>
                      Native Soup</h2>
                        <p className={`transform mt-10 ${Narrow ? 'translate-x-[12rem]' : '-translate-x-[50rem]'}`}>
                         {Narrow ? `Hamornizing the distinct flavour of oha leaves` : (<h2 >
@@ -428,7 +428,7 @@ export default function Categories() {
                     </div> {/*Beef end */} 
 
                     <div className='flex flex-row-reverse gap-[2rem]'>
-                    <Image src={fish} alt='amala' loading='lazy' className={` w-[150px] h-[150px] mt-14 md:w-[200px] transform ${Narrow ? '-translate-x-[15rem]' : ''}`}/>
+                    <Image src={fish} alt='amala' loading='lazy' className={` w-[150px] h-[150px] mt-14 md:w-[200px] transform ${Narrow ? '-translate-x-[12rem]' : ''}`}/>
                        <div className={`${styles.desc}`}>
                        <h2 className={`mt-7 md:text-[1.5rem] mb-2 border-b rounded-full w-fit transform px-6 ${Narrow ? 'translate-x-[10rem]' : '-translate-x-[50rem]'} `}>
                        Fresh Fish</h2>
@@ -457,12 +457,13 @@ export default function Categories() {
                     </div> {/*Dried end */}  {/* */}
                  
                     <div className='flex flex-row-reverse gap-[2rem]'>
-                    <Image src={assort} alt='assorted meat' loading='lazy' className={` w-[150px] h-[150px] mt-14 md:w-[200px] transform ${Narrow ? '-translate-x-[15rem]' : '-translate-6'}`}/>
+                    <Image src={assort} alt='assorted meat' loading='lazy' className={` w-[150px] h-[150px] mt-14 md:w-[200px] transform ${Narrow ? '-translate-x-[12rem]' : '-translate-6'}`}/>
                        <div className={`${styles.desc}`}>
                        <h2 className={`mt-7 md:text-[1.5rem] mb-2 border-b rounded-full w-fit transform px-6 ${Narrow ? 'translate-x-[10rem]' : '-translate-x-[50rem]'} `}>
                        Assorted Meat</h2>
                        <p className={`transform  mt-10 ${Narrow ? 'translate-x-[10rem]' : '-translate-x-[60rem]'}`}>
-                       {Narrow ? (<h2>Fresh, succulent fish  <br /> for the finsest flavour</h2>) : (<h2>Delicious assorted meat, a flavorful mix of tender beef, <br /> tripe, and other cuts, seasoned and cooked to perfection.</h2>)}
+                       {Narrow ? (<h2>Assorted meat is a mix of different beef <br/> and animal parts used for rich flavor.
+       </h2>) : (<h2>Delicious assorted meat, a flavorful mix of tender beef, <br /> tripe, and other cuts, seasoned and cooked to perfection.</h2>)}
                        </p>
                        <Button asChild className={`transform mt-6 ${styles.menuButtonrev} ${Narrow ? 'translate-x-[52rem]' : '-translate-x-[12rem]'}`}>
                         <Link href='/Menu/assort' target="_blank"  className='px-6'>Learn More</Link>
@@ -473,7 +474,7 @@ export default function Categories() {
                     <div className='flex gap-[2rem]'>
                     <Image src={chicken} alt='semolina' loading='lazy' className='w-[150px] h-[150px] mt-20 ml-16 md:w-[200px] transform translate-x-[8rem] md:mt-9'/>
                        <div className={`${styles.desc}`}>
-                       <h2 className='mt-7 md:text-[1.5rem] mb-2 border-b rounded-full w-fit px-6'>Chicken</h2>
+                       <h2 className='mt-7 md:text-[1.5rem] mb-2 border-b rounded-full w-fit px-6 transform -translate-x-6'>Chicken</h2>
                        <p className={`transform  mt-10 ${Narrow ? '-translate-x-[14rem]' : '-translate-x-[18rem]'}`}>
                       {Narrow ? (<h2 className='whitespace-nowrap'>Juicy, tender Chicken <br />with savory flavour</h2>) : (<h2>
                         Juicy, tender Chicken, perfectly seasoned and cooked to bring out its rich, <br /> savory flavor.
@@ -486,7 +487,7 @@ export default function Categories() {
                     </div> {/*Chicken end */} {/*  */} 
 
                     <div className='flex flex-row-reverse gap-[2rem]'>
-                    <Image src={goatm} alt='amala' loading='lazy' className={` w-[150px] h-[150px] mt-14 md:w-[200px] transform ${Narrow ? '-translate-x-[15rem]' : ''}`}/>
+                    <Image src={goatm} alt='amala' loading='lazy' className={` w-[150px] h-[150px] mt-14 md:w-[200px] transform ${Narrow ? '-translate-x-[12rem]' : ''}`}/>
                        <div className={`${styles.desc}`}>
                        <h2 className={`mt-7 md:text-[1.5rem] mb-2 border-b rounded-full w-fit transform px-6 ${Narrow ? 'translate-x-[10rem]' : '-translate-x-[50rem]'} `}>
                        Goat Meat</h2>
@@ -502,7 +503,7 @@ export default function Categories() {
                     <div className='flex gap-[2rem]'>
                     <Image src={cowm} alt='semolina' loading='lazy' className='w-[150px] h-[150px] mt-20 ml-16 md:w-[200px] transform translate-x-[8rem] md:mt-9'/>
                        <div className={`${styles.desc}`}>
-                       <h2 className='mt-7 md:text-[1.5rem] mb-2 border-b rounded-full w-fit px-6'>Cow Meat</h2>
+                       <h2 className='mt-7 md:text-[1.5rem] mb-2 border-b rounded-full w-fit px-6 transform -translate-x-10'>Cow Meat</h2>
                        <p className={`transform  mt-10 ${Narrow ? '-translate-x-[14rem]' : '-translate-x-[15rem]'}`}>
                       {Narrow ? (<h2 className='whitespace-nowrap'>Juicy, tender beef <br />with savory flavour</h2>) : (<h2>
                         Juicy, tender beef, perfectly seasoned and cooked to bring out its rich, <br /> savory flavor.
@@ -515,7 +516,7 @@ export default function Categories() {
                     </div> {/*cow end */} {/*  */}
 
                     <div className='flex flex-row-reverse gap-[2rem]'>
-                    <Image src={stock} alt='amala' loading='lazy' className={` w-[150px] h-[150px] mt-14 md:w-[200px] transform ${Narrow ? '-translate-x-[15rem]' : ''}`}/>
+                    <Image src={stock} alt='amala' loading='lazy' className={` w-[150px] h-[150px] mt-14 md:w-[200px] transform ${Narrow ? '-translate-x-[12rem]' : ''}`}/>
                        <div className={`${styles.desc}`}>
                        <h2 className={`mt-7 md:text-[1.5rem] mb-2 border-b rounded-full w-fit transform px-6 ${Narrow ? 'translate-x-[10rem]' : '-translate-x-[50rem]'} `}>
                        Stock Fish</h2>
@@ -550,7 +551,7 @@ export default function Categories() {
                     </div> {/*Jellof*/}
 
                     <div className='flex flex-row-reverse gap-[2rem]'>
-                    <Image src={white} alt='amala' loading='lazy' className={` w-[150px] h-[150px] mt-14 md:w-[200px] transform ${Narrow ? "-translate-x-[15rem]" : "-translate-x-[4rem]"} `}/> {/*  Revoke ml later */}
+                    <Image src={white} alt='amala' loading='lazy' className={` w-[150px] h-[150px] mt-14 md:w-[200px] transform ${Narrow ? "-translate-x-[12rem]" : "-translate-x-[4rem]"} `}/> {/*  Revoke ml later */}
                        <div className={`${styles.desc}`}>
                        <h2 className={`mt-4 md:text-[1.5rem] mb-2 border-b rounded-full w-fit transform px-6 ${Narrow ? 'translate-x-[15rem]' :''}`}>
                        White Rice</h2>
@@ -566,7 +567,7 @@ export default function Categories() {
                     <div className='flex gap-[2rem]'>
                     <Image src={cole} alt='semolina' loading='lazy' className='w-[150px] mt-18 h-[150px] ml-16 md:w-[200px] transform translate-x-[8rem] md:mt-6'/> {/*  Revoke ml later */}
                        <div className={`${styles.desc}`}>
-                       <h2 className='mt-7 md:text-[1.5rem] mb-2 border-b rounded-full w-fit px-6 whitespace-nowrap'>Coleslaw</h2>
+                       <h2 className='mt-7 md:text-[1.5rem] mb-2 border-b rounded-full w-fit px-6  transform -translate-x-7 whitespace-nowrap'>Coleslaw</h2>
                        <p className={`transform mt-10 ${Narrow ? '-translate-x-[15rem]' : '-translate-x-[24rem]'} `}>
                        {Narrow ? (<h2>A delightful medley of shredded cabbagec</h2>) : (<h2> Crisp and refreshing, our coleslaw is a delightful medley of shredded cabbage <br /> and carrots tossed in a tangy dressing—a perfect, crunchy side for any meal</h2>)}
                        </p>
@@ -577,7 +578,7 @@ export default function Categories() {
                     </div> {/*Cole end*/}  {/* */}
 
                     <div className='flex flex-row-reverse gap-[2rem]'>
-                    <Image src={coco} alt='amala' loading='lazy' className={` w-[150px] h-[150px] mt-14 md:w-[200px] transform ${Narrow ? "-translate-x-[15rem]" : "-translate-x-[4rem]"} `}/> {/*  Revoke ml later */}
+                    <Image src={coco} alt='amala' loading='lazy' className={` w-[150px] h-[150px] mt-14 md:w-[200px] transform ${Narrow ? "-translate-x-[13rem]" : "-translate-x-[4rem]"} `}/> {/*  Revoke ml later */}
                        <div className={`${styles.desc}`}>
                        <h2 className={`mt-4 md:text-[1.5rem] mb-2 border-b rounded-full w-fit transform px-6 ${Narrow ? 'translate-x-[15rem]' :'-translate-x-[50rem]'}`}>
                       Coconut Rice</h2>
@@ -604,7 +605,7 @@ export default function Categories() {
                     </div> {/*plantain*/} {/*  */} 
 
                     <div className='flex flex-row-reverse gap-[2rem]'>
-                    <Image src={stew} alt='amala' loading='lazy' className={` w-[150px] h-[150px] mt-14 md:w-[200px] transform ${Narrow ? "-translate-x-[15rem]" : "-translate-x-[4rem]"} `}/> {/*  Revoke ml later */}
+                    <Image src={stew} alt='amala' loading='lazy' className={` w-[150px] h-[150px] mt-14 md:w-[200px] transform ${Narrow ? "-translate-x-[14rem]" : "-translate-x-[4rem]"} `}/> {/*  Revoke ml later */}
                        <div className={`${styles.desc}`}>
                        <h2 className={`mt-4 md:text-[1.5rem] mb-2 border-b rounded-full w-fit transform px-6 ${Narrow ? 'translate-x-[15rem]' :'-translate-x-[40rem]'}`}>
                       Stew</h2>
@@ -631,7 +632,7 @@ export default function Categories() {
                     </div> {/*Moi*/} {/* im*/}
 
                     <div className='flex flex-row-reverse gap-[2rem]'>
-                    <Image src={fried} alt='amala' loading='lazy' className={` w-[150px] h-[150px] mt-14 md:w-[200px] transform ${Narrow ? "-translate-x-[15rem]" : "-translate-x-[4rem]"} `}/> {/*  Revoke ml later */}
+                    <Image src={fried} alt='amala' loading='lazy' className={` w-[150px] h-[150px] mt-14 md:w-[200px] transform ${Narrow ? "-translate-x-[13rem]" : "-translate-x-[4rem]"} `}/> {/*  Revoke ml later */}
                        <div className={`${styles.desc}`}>
                        <h2 className={`mt-4 md:text-[1.5rem] mb-2 border-b rounded-full w-fit transform px-6 ${Narrow ? 'translate-x-[15rem]' :'-translate-x-[42rem]'}`}>
                        Fried Rice</h2>
@@ -694,9 +695,9 @@ export default function Categories() {
                     </div> {/* cow leg pepper soup */}
                   
                     <div className='flex gap-[2rem]'>
-                    <Image src={assortps} alt='semolina' loading='lazy' className=' w-[150px] h-[150px] mt-20 md:w-[200px] transform translate-x-[14rem] md:mt-6'/>
+                    <Image src={assortps} alt='semolina' loading='lazy' className=' w-[150px] h-[150px] mt-20 md:w-[200px] transform translate-x-[12rem] md:mt-6'/>
                        <div className={`${styles.desc}`}>
-                       <h2 className={`mt-7 transform md:text-[1.5rem] mb-2 border-b rounded-full w-fit px-6 whitespace-nowrap ${Narrow ? '-translate-x-8' : '-translate-x-8'}`}>Assorted meat pepper soup</h2>
+                       <h2 className={`mt-7 transform md:text-[1.5rem] mb-2 border-b rounded-full w-fit px-6 whitespace-nowrap ${Narrow ? '-translate-x-26' : '-translate-x-8'}`}>Assorted meat pepper soup</h2>
                        <p className={`transform  mt-10 ${Narrow ? '-translate-x-[11rem]' : '-translate-x-[20rem]'}`}>
                         {Narrow ? (<h2 className='whitespace-nowrap '>Spicy and aromatic <br /> goat meat pepper soup</h2>) : (<h2>  Spicy and aromatic goat meat pepper soup, slow-cooked with fresh herbs and <br /> bold African spices for a rich, comforting taste</h2>)}
                        </p>
@@ -722,9 +723,9 @@ export default function Categories() {
                     </div> {/* cow leg pepper soup */} {/* ' */}
 
                     <div className='flex gap-[2rem]'>
-                    <Image src={stockps} alt='semolina' loading='lazy' className=' w-[150px] h-[150px] mt-20 md:w-[200px] transform translate-x-[14rem] md:mt-6'/>
+                    <Image src={stockps} alt='semolina' loading='lazy' className=' w-[150px] h-[150px] mt-20 md:w-[200px] transform translate-x-[13rem] md:mt-6'/>
                        <div className={`${styles.desc}`}>
-                       <h2 className={`mt-7 transform md:text-[1.5rem] mb-2 border-b rounded-full w-fit px-6 whitespace-nowrap ${Narrow ? '-translate-x-8' : ''}`}>Stock Fish pepper soup</h2>
+                       <h2 className={`mt-7 transform md:text-[1.5rem] mb-2 border-b rounded-full w-fit px-6 whitespace-nowrap ${Narrow ? '-translate-x-26' : ''}`}>Stock Fish pepper soup</h2>
                        <p className={`transform  mt-10 ${Narrow ? '-translate-x-[11rem]' : '-translate-x-[20rem]'}`}>
                         {Narrow ? (<h2 className='whitespace-nowrap '>Spicy and aromatic <br /> stock fish pepper soup</h2>) : (<h2>  Spicy and aromatic stock fish pepper soup, slow-cooked with fresh herbs and <br /> bold African spices for a rich, comforting taste</h2>)}
                        </p>
@@ -735,7 +736,7 @@ export default function Categories() {
                     </div> {/*Goat meat pepper soup*/} {/* */}
 
                     <div className='flex flex-row-reverse gap-[2rem]'>
-                    <Image src={chickps} alt='amala' loading='lazy' className={`w-[150px] mt-18 h-[150px] md:w-[200px] transform  ${Narrow ? '-translate-x-[14rem]' : '-translate-x-[2rem]'}`}/>
+                    <Image src={chickps} alt='amala' loading='lazy' className={`w-[150px] mt-18 h-[150px] md:w-[200px] transform  ${Narrow ? '-translate-x-[13rem]' : '-translate-x-[2rem]'}`}/>
                        <div className={`${styles.desc}`}>
                        <h2 className={`mt-7 md:text-[1.5rem] mb-2 border-b rounded-full w-fit px-6 transfrom
                        ${Narrow ? 'whitespace-nowrap translate-x-[12rem]' : ' -translate-x-[45rem]'} `}>
@@ -752,7 +753,7 @@ export default function Categories() {
                     <div className='flex gap-[2rem]'>
                     <Image src={dsp} alt='semolina' loading='lazy' className=' w-[150px] h-[150px] mt-20 md:w-[200px] transform translate-x-[14rem] md:mt-6'/>
                        <div className={`${styles.desc}`}>
-                       <h2 className={`mt-7 transform md:text-[1.5rem] mb-2 border-b rounded-full w-fit px-6 whitespace-nowrap ${Narrow ? '-translate-x-8' : ''}`}>Dried Fish pepper soup</h2>
+                       <h2 className={`mt-7 transform md:text-[1.5rem] mb-2 border-b rounded-full w-fit px-6 whitespace-nowrap ${Narrow ? '-translate-x-26' : ''}`}>Dried Fish pepper soup</h2>
                        <p className={`transform  mt-10 ${Narrow ? '-translate-x-[11rem]' : '-translate-x-[20rem]'}`}>
                         {Narrow ? (<h2 className='whitespace-nowrap '>smoky Nigerian soup made <br /> with dried fish<br /> goat meat pepper soup</h2>) : (<h2>  Dried Fish Pepper Soup is a spicy, smoky Nigerian soup made with dried fish.</h2>)}
                        </p>
@@ -763,7 +764,7 @@ export default function Categories() {
                     </div> {/*Goat meat pepper soup*/} {/*  */}
 
                     <div className='flex flex-row-reverse gap-[2rem]'>
-                    <Image src={beefps} alt='amala' loading='lazy' className={`w-[150px] mt-18 h-[150px] md:w-[200px] transform  ${Narrow ? '-translate-x-[14rem]' : '-translate-x-[2rem]'}`}/>
+                    <Image src={beefps} alt='amala' loading='lazy' className={`w-[150px] mt-18 h-[150px] md:w-[200px] transform  ${Narrow ? '-translate-x-[12rem]' : '-translate-x-[2rem]'}`}/>
                        <div className={`${styles.desc}`}>
                        <h2 className={`mt-7 md:text-[1.5rem] mb-2 border-b rounded-full w-fit px-6 transfrom
                        ${Narrow ? 'whitespace-nowrap translate-x-[12rem]' : ' -translate-x-[45rem]'} `}>

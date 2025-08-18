@@ -32,7 +32,7 @@ export default function SideBar() {
   </>
   )}
   {!expanded && (
-   <button onClick={() => setExpanded(true)}><Ellipsis className="w-5 h-5 absolute top-10 z-30 right-4"/></button>
+   <button onClick={() => setExpanded(true)}><Ellipsis className="w-5 h-5 absolute top-10 z-30 right-1"/></button>
   )}          
 </aside>
     </>

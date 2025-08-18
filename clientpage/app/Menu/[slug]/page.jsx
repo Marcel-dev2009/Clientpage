@@ -746,7 +746,7 @@ const menuData = {
                    <div className='flex p-6 justify-between border border-white/15 rounded-md bg-black/5 mt-4 mb-4'>
                     <h2>Wuse, Abuja <br /> #494 Bangui Street, Off Ademola Adetokunbo, Wuse 2, Abuja, Nigeria.</h2>
                       <Button className='animate-pulse mt-4'>
-                         <Link href='tel:' >Contact Us </Link>
+                         <Link href='tel:07015863699' >Contact Us </Link>
                       </Button>
                      <Link href='' className='ml-6 mt-4'> <RiWhatsappFill color='green' size={30} /></Link>
                   </div>
@@ -756,7 +756,7 @@ const menuData = {
                    <div className='flex p-6 justify-between border border-white/15 rounded-md bg-black/5 mt-4 mb-4'>
                     <h2>Garki, Abuja <br /> #1594 Sir Ladoke Akintola Blvd., Off Lagos Street, Garki II, Abuja, Nigeria</h2>
                       <Button className='animate-pulse mt-4'>
-                         <Link href='tel:' >Contact Us </Link>
+                         <Link href='tel:07015863655' >Contact Us </Link>
                       </Button>
                      <Link href='' className='ml-6 mt-4'> <RiWhatsappFill color='green' size={30} /></Link>
                   </div>
@@ -766,7 +766,7 @@ const menuData = {
                     <h2>Ikeja, Lagos
                    +Event Hall <br /> #21 Isaac John Street, Ikeja G.R.A, Ikeja, Lagos, Nigeria</h2>
                       <Button className='animate-pulse mt-4 ml-4'>
-                         <Link href='tel:' >Contact Us </Link>
+                         <Link href='tel:07015863685' >Contact Us </Link>
                       </Button>
                      <Link href='' className='ml-6 mt-4'> <RiWhatsappFill color='green' size={30} /></Link>
                   </div>
@@ -776,7 +776,7 @@ const menuData = {
                     <h2>Victoria Island, Lagos <br />
                     14b Agoro odiyan street ,off adeola odeku road, Victoria Island, Lagos, Nigeria</h2>
                       <Button className='animate-pulse mt-4 ml-4'>
-                         <Link href='tel:' >Contact Us </Link>
+                         <Link href='tel:07015863657' >Contact Us </Link>
                       </Button>
                      <Link href='' className='ml-6 mt-4'> <RiWhatsappFill color='green' size={30} /></Link>
                   </div> {/* Victoria Island Lagos */}
@@ -789,7 +789,7 @@ const menuData = {
                          + Event Hall <br />
                   </h2>
                       <Button className='animate-pulse mt-4 ml-4'>
-                         <Link href='tel:' >Contact Us </Link>
+                         <Link href='tel:07015863677' >Contact Us </Link>
                       </Button>
                      <Link href='' className='ml-6 mt-4'> <RiWhatsappFill color='green' size={30} /></Link>
                   </div> {/*GRA */}
@@ -800,7 +800,7 @@ const menuData = {
                       +bakery
                   </h2>
                       <Button className='animate-pulse mt-4 ml-4'>
-                         <Link href='tel:' >Contact Us </Link>
+                         <Link href='tel:07015863678' >Contact Us </Link>
                       </Button>
                      <Link href='' className='ml-6 mt-4'> <RiWhatsappFill color='green' size={30} /></Link>
                   </div> {/* PH*/}
@@ -809,7 +809,7 @@ const menuData = {
                     #19 Umez Eronini Street, Ikenegbu, Owerri, Imo State, Nigeria
                   </h2>
                       <Button className='animate-pulse mt-4 ml-4'>
-                         <Link href='tel:' >Contact Us </Link>
+                         <Link href='tel:07015863699' >Contact Us </Link>
                       </Button>
                      <Link href='' className='ml-6 mt-4'> <RiWhatsappFill color='green' size={30} /></Link>
                   </div> {/* Owerri*/}
@@ -819,7 +819,7 @@ const menuData = {
                     #11 Brass Street, G.R.A Aba, Abia State, Nigeria
                   </h2>
                       <Button className='animate-pulse mt-4 ml-4'>
-                         <Link href='tel:' >Contact Us </Link>
+                         <Link href='tel:07015863659' >Contact Us </Link>
                       </Button>
                      <Link href='' className='ml-6 mt-4'> <RiWhatsappFill color='green' size={30} /></Link>
                   </div> {/* Owerri*/}

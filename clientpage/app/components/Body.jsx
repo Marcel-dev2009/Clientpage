@@ -21,7 +21,7 @@ import Type from './Type'
 import { useState , useEffect} from 'react'
 const Typer = dynamic(() => import('./TypingEffect.jsx') , {ssr: false})
 export default function Body() {
-  const win = typeof window !== "undefined" ? window : undefined;
+  const win = typeof window !== "undefined" ? window   : undefined;
   const useWidth = (threshold = 1080) => {
     const [Narrow , setIsNarrow] = useState(win ? win.innerWidth <= threshold : false)
     useEffect(() => {

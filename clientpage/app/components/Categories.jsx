@@ -51,8 +51,9 @@ import white from '../../public/white.png'
 import { Button } from "@/components/ui/button"
 
 export default function Categories() {
+   const win = typeof window !== 'undefined' ? window : null;
   const useWidth = (threshold = 1080) => {
-    const [Narrow , setIsNarrow] = useState(typeof window !== undefined ? window.innerWidth <= threshold : false)
+    const [Narrow , setIsNarrow] = useState(win ? win.innerWidth <= threshold : false)
     useEffect(() => {
      function onResize(){
        setIsNarrow(window.innerWidth<= threshold)

@@ -1,45 +1,9 @@
-
-/* 
-
-
-import Footer from './footer'
-
-
-
-
-
- */
 import Link from 'next/link'
-/* 
-
-
- */
-/*  */
-/* import semo from '../../public/semolina.png'
-
-
-
-
-
-
- */
-/* 
-
-
-'
-
-
-g'
-
-
-
-import { Button } from "@/components/ui/button" */
 import ff from '../../../public/ff.png'
 import assortps from '../../../public/assortps.png'
 import stockps from '../../../public/stockps.png' 
 import chickps from '../../../public/chick.png' 
 import dsp from '../../../public/dsp.png'
-
 import beefps from '../../../public/beefps.png'
 import stew from '../../../public/stew.png'
 import cole from '../../../public/cole.png'
@@ -76,7 +40,6 @@ import amala from '../../../public/amala.png'
 import { RiWhatsappFill } from "react-icons/ri";
 import Image from 'next/image';
 import semo from '../../../public/semolina.png'
-import styles from '../../components/style.module.css'
 import { Button } from '@/components/ui/button';
 import Footer from '@/app/components/footer';
 import oha from '../../../public/oha.png'
@@ -746,17 +709,6 @@ const menuData = {
       VIII : "Water",
     },
   },
-
-  /* 
- 
-  Long-grain parboiled rice 
-
- 
-
-
-
-
-   */
 }  
         export default function MenuItemPage({ params }) {
           const { slug } = params; // e.g. "amala"

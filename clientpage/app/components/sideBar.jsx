@@ -21,10 +21,10 @@ export default function SideBar() {
   className={` fixed top-0 right-0 h-screen z-30 w-64 bg-blue-950 rounded-tl-lg rounded-bl-lg`}>
    <nav className="text-white mt-[7rem] px-6 py-2">
       <ul className="flex flex-col gap-4">
-     <Link href='#' className="border px-20 py-2 rounded-md">Home</Link> <br />
-     <Link href='#' className="border px-20 py-2 rounded-md">Contact</Link> <br />
-     <Link href='#' className="border px-20 py-2 rounded-md whitespace-nowrap">About Us</Link> <br />
-     <Link href='#' className="border px-20 py-2 rounded-md whitespace-nowrap">Sign In</Link> <br />
+     <Link href='/' className="border px-20 py-2 rounded-md">Home</Link> <br />
+     <Link href='/Contact' className="border px-20 py-2 rounded-md">Contact</Link> <br />
+     <Link href='/Menu' className="border px-20 py-2 rounded-md whitespace-nowrap">Menu</Link> <br />
+     <Link href='/Login' className="border px-20 py-2 rounded-md whitespace-nowrap">Sign In</Link> <br />
      </ul>    
    </nav>
  </motion.div>     

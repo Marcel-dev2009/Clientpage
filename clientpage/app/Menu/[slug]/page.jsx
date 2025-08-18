@@ -719,7 +719,7 @@ const menuData = {
           }
         
           return (
-            <div className={`transform translate-x-[25rem] h-auto mt-4 border border-white/15 w-[50%] rounded-md `}>
+            <div className={` overflow-x-hidden  transform md:translate-x-[25rem] h-auto mt-4 border border-white/15  w-full md:w-[50%] rounded-md `}>
              <div className='grid place-items-center'>
              <Image src={item.image} alt={item.name} className='w-[200px] h-[200px]' />
               <h1 className="text-3xl font-bold">{item.name}</h1>
